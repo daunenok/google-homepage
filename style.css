@@ -1,0 +1,132 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	color: #7F7F7F;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/*----------------------------------------------------------*/
+
+.main {
+	text-align: center;
+	margin-top: 200px;
+}
+.main img {
+	width: 270px;
+	margin-bottom: 25px;
+}
+.main input {
+	width: 410px;
+	height: 40px;
+	margin-bottom: 30px;
+	border: 1px solid #E5E5E5;
+	box-shadow: 0 1px 1px #C8C8C8;
+	padding: 0 100px 0 10px;
+}
+.main input:hover, .main input:focus {
+	outline: 0;
+	box-shadow: 0 1px 5px #C8C8C8;
+}
+.wrapper {
+	position: relative;
+	width: 522px;
+	margin: 0 auto;
+}
+.micro {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	background-image: url(images/micro.png);
+	width: 17px;
+	height: 22px;
+}
+.keyb {
+	position: absolute;
+	top: 15px;
+	right: 60px;
+	background-image: url(images/tia.png);
+	width: 19px;
+	height: 11px;
+}
+.keyb:hover {
+	background-image: url(images/tia1.png);
+}
+.main button {
+	font-weight: bold;
+	color: #757575;
+	background-color: #F5F5F5;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 2px;
+	margin-right: 10px;
+	border: 1px solid #F5F5F5;
+}
+.main button:hover {
+	border: 1px solid #bbb;
+	color: #000;
+}
+
+/*------------------------------------------------------------------*/
+
+.nav-up {
+	overflow: auto;
+}
+.nav-up ul {
+	float: right;
+	padding-right: 40px;
+}
+.nav-up li {
+	display: inline-block;
+	padding: 20px 10px;
+}
+.nav-up li:nth-child(3) a {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(images/plitka.png); 
+}
+.nav-up li:nth-child(3) a:hover {
+	background-image: url(images/plitka1.png); 
+	text-decoration: none;
+}
+.nav-up li:nth-child(4) a {
+	display: inline-block;
+	padding: 8px 15px;
+	background-color: #4386FA; 
+	color: #fff;
+	border-radius: 3px;
+}
+.nav-up li:nth-child(4) a:hover {
+	box-shadow: 0 0 1px #4386FA;
+	text-decoration: none;
+}
+
+/*----------------------------------------------------------*/
+
+.footer {
+	overflow: auto;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+}
+.footer .left {
+	float: left;
+	padding-left: 15px;
+}
+.footer li {
+	display: inline-block;
+	padding: 15px;
+}
+.footer .right {
+	float: right;
+	padding-right: 15px;
+}
